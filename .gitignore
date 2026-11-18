@@ -1,0 +1,16 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+
+# Credenciais e configurações privadas
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Arquivos temporários
+.DS_Store
